@@ -1,0 +1,29 @@
+
+/* pour le lecteur en bas, permet d'aligner la musique jouée et les contrôles */
+.app-bottom{
+    display: flex;
+    align-items: flex-start;    
+}
+
+/* #app-bottom+div{
+    display: flex;
+    align-items: flex-end;
+} */
+
+/* permet de mettre l'image à gauche du texte (Ici : Random Access Memories, le groupe, l'année de sortie, la durée et le nombre de titres */
+.album{
+    display: flex;
+    align-items: flex-start;
+}
+/* permet de mettre le nom du titre à gauche, et la durée à droite */
+.track-item{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.app-top{
+    display: flex;
+    align-items: center;
+    
+}
