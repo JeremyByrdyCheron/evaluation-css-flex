@@ -56,3 +56,21 @@
   
 }
 /* tentative pour que la hauteur de la page change */
+.app-nav {
+    width: 50px;
+    background: #313131;
+    color: #fff;
+}
+
+.app-bottom {
+    background: #313131;
+    color: #fff;
+    padding: 20px;
+}
+
+.app-wrapper {
+    background: linear-gradient(#000,#313131);
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
