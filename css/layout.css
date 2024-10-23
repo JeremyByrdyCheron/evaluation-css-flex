@@ -4,10 +4,6 @@
   align-items: stretch;
 }
 
-/* #app-bottom+div{
-    display: flex;
-    align-items: flex-end;
-} */
 
 /* permet de mettre l'image à gauche du texte (Ici : Random Access Memories, le groupe, l'année de sortie, la durée et le nombre de titres. Et que les blocs fassent la même taille */
 .album {
@@ -28,18 +24,27 @@
 .app-nav{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
 }
-
-
+/* permet de mettre en ligne le bloc app-content, le width doit permettre d'atteindre la droite de l'écran, et le height de permettre de laisser un petit espace pour avoir une partie vide */
+.app-content{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    width: 2000px;
+    height: 550px
+}
 /* mets le texte à côté de l'image tout en bas */
 .app-bottom div{
     display: flex;
     align-items: center;
+    justify-content: space-evenly;
 }
 /* mets le groupe en dessous du titre dans le cadre du bas  */
 .app-bottom div .current-details{
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: stretch;
+    width: 1250px;
+  
 }
